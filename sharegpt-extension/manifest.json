@@ -1,6 +1,6 @@
 {
-  "name": "ShareGPT: Share your ChatGPT conversations",
-  "description": "ShareGPT is a Chrome extension that lets you your wildest ChatGPT conversations with one click.",
+  "name": "ChatMap.ai Power your chatGPT ideas",
+  "description": "baibaomen@gmail.com",
   "version": "1.0.92",
   "manifest_version": 3,
   "icons": {
@@ -22,7 +22,8 @@
   "content_scripts": [
     {
       "matches": ["https://chat.openai.com/chat/*"],
-      "js": ["index.js"],
+      "js": [ "index.js" ],
+      "css": ["index.css"],
       "run_at": "document_end"
     }
   ],
